@@ -1,0 +1,24 @@
+# Fichiers sensibles Infomaniak
+*openrc*
+*clouds.yaml*
+terraform.tfvars
+*.tfstate
+*.tfstate.backup
+
+# Clés WireGuard
+privatekey
+publickey
+
+# Variables d'environnement
+*.env
+
+# Données Docker
+postgres_data/
+grafana_data/
+
+# Documentation Word (optionnel)
+*.docx
+
+# Terraform cache
+.terraform/
+*.terraform.lock.hcl
